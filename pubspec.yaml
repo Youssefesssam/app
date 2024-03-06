@@ -76,6 +76,7 @@ flutter:
     - assets/story/story6.jpg
     - assets/ImageBackgroundLight.jpg
     - assets/ImageBackgroundDark.jpg
+    - assets/Heart.png
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

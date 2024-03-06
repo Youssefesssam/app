@@ -7,4 +7,5 @@ class AppPic{
   static String story4 = "assets/story/story4.jpg";
   static String story5 = "assets/story/story5.jpg";
   static String story6 = "assets/story/story6.jpg";
+  static String heart = "assets/Heart.png";
 }
