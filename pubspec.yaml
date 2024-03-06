@@ -30,6 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  carousel_slider: ^4.2.1
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.1.2
 
 
 
@@ -61,7 +66,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - "assetes/background.jpeg"
+    - assets/background.jpeg
+    - assets/background1.jpeg
+    - assets/story/story1.jpg
+    - assets/story/story2.jpg
+    - assets/story/story3.jpg
+    - assets/story/story4.jpg
+    - assets/story/story5.jpg
+    - assets/story/story6.jpg
+    - assets/ImageBackgroundLight.jpg
+    - assets/ImageBackgroundDark.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
