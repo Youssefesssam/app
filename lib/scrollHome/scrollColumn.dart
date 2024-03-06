@@ -1,13 +1,14 @@
-import 'package:ch/screens/data.dart';
+
 import 'package:ch/themeProvider/themeProvider.dart';
 import 'package:ch/ui/utilites/appPic.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import '../ui/screens/data.dart';
 import '../ui/utilites/appcolor.dart';
 
-class Scrool extends StatelessWidget {
+class ScrollColumn extends StatelessWidget {
   String pic;
-   Scrool(this.pic);
+  ScrollColumn(this.pic);
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +20,7 @@ class Scrool extends StatelessWidget {
             children: [
               InkWell(
                 onTap: (){
-                    Navigator.pushNamed(context, Data.routNama,);
+                    Navigator.pushNamed(context, Data.routeNama,);
 
                 },
                 child: Container(

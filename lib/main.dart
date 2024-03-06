@@ -1,11 +1,13 @@
-import 'package:ch/screens/data.dart';
-import 'package:ch/screens/tab1.dart';
-import 'package:ch/screens/tab2.dart';
-import 'package:ch/screens/tab3.dart';
+
 import 'package:ch/themeProvider/themeProvider.dart';
+import 'package:ch/ui/screens/data.dart';
+import 'package:ch/ui/screens/homeScreen.dart';
+import 'package:ch/ui/screens/tabs/tab1.dart';
+import 'package:ch/ui/screens/tabs/tab2.dart';
+import 'package:ch/ui/screens/tabs/tab3.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'screens/homeScreen.dart';
 
 void main() {
   runApp( ChangeNotifierProvider(
@@ -23,7 +25,7 @@ class MyApp extends StatelessWidget {
       themeMode:themeProvider.currentMode ,
       routes: {
         HomeScreen.routName: (_) => HomeScreen(),
-        Data.routNama: (_) => Data(),
+        Data.routeNama: (_) => Data(),
         tab1.routeName: (_) => tab1(),
         tab2.routeName: (_) => tab2(),
         tab3.routeName: (_) => tab3(),

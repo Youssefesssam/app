@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class Data extends StatelessWidget {
    Data({super.key});
-static const String routNama ="data";
+static const String routeNama ="data";
 
 List<Widget> pic =[Image.asset("assetes/background.jpeg"),
   Image.asset("assetes/background.jpeg"),

@@ -1,15 +1,17 @@
-import 'package:ch/screens/tab1.dart';
-import 'package:ch/screens/tab2.dart';
-import 'package:ch/screens/tab3.dart';
+
 import 'package:ch/themeProvider/themeProvider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../ui/screens/tabs/tab1.dart';
+import '../ui/screens/tabs/tab2.dart';
+import '../ui/screens/tabs/tab3.dart';
 
 
-class Scrool1 extends StatelessWidget {
+
+class ScrollRow extends StatelessWidget {
   String pathPic ;int num;
-  Scrool1(this.pathPic,this.num);
+  ScrollRow(this.pathPic,this.num);
   List<Widget> tabs =[tab1(),tab2(),tab3()];
   @override
   Widget build(BuildContext context) {
