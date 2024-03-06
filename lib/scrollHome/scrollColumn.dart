@@ -46,6 +46,18 @@ class ScrollColumn extends StatelessWidget {
             width: double.infinity,
                child: Image.asset(pic,fit: BoxFit.cover,),
           ),
+          Container(
+              alignment: Alignment.topLeft,
+              margin: const EdgeInsets.only(top: 3,left: 8,bottom: 5,),
+              child: const Row(
+                children: [
+                  Icon(Icons.access_alarms,size: 35,),
+                  SizedBox(width: 5,),
+                  Icon(Icons.access_alarms,size: 35,),
+                  SizedBox(width: 5,),
+                  Icon(Icons.access_alarms,size: 35,),
+                ],
+              ),)
         ],
 
     );
